@@ -1,22 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package comp1011.assignment02;
 
 /**
  *
  * @author Justin
+ * Date: February 6th 2015
+ * Program Description: Main class for assignment 2 program
  */
 public class COMP1011Assignment02 {
 
     /**
-     * @param args the command line arguments
+     * main method for project
+     * @param args 
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Hero hero1 = new Hero("Justin");
+        hero1.show();
+        hero1.fight();
     }
     
 }
