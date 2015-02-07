@@ -13,7 +13,7 @@ public class Hero {
     private int health;
     public String name;
     
-    // constructor
+    // constructor ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     public Hero(String name){
         
         this.name = name;
@@ -22,7 +22,7 @@ public class Hero {
     }
     
     
-    // public methods
+    // public methods ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     public void show(){
         String message = (this.name + "\nHealth: " + this.health + "\nStrength: " + this.strength + "\nSpeed: "+ this.speed );
         System.out.println(message);
@@ -43,7 +43,7 @@ public class Hero {
     
     
     
-    //private methods
+    //private methods ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     private void generateAbilities(){
         // random numbers for health/speed/strength
         this.strength = (int)(Math.random() * 100) + 1;

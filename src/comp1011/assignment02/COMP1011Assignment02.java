@@ -15,9 +15,10 @@ public class COMP1011Assignment02 {
      */
     public static void main(String[] args) {
 
-        Hero hero1 = new Hero("Justin");
-        hero1.show();
-        hero1.fight();
+
+        SuperHero hero2 = new SuperHero("Tiffany");
+        hero2.showPowers();
+        hero2.fight();
     }
     
 }
